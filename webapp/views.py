@@ -9,6 +9,14 @@ def home_work(request):
 secret_num = ['1', '2', '3', '4']
 
 
+def main(request):
+    return render(request, "home.html")
+
+
+def main(request):
+    return render(request, "home.html")
+
+
 def checking(self):
     if len(self.user_numbers) > 4 or len(self.user_numbers) < 4:
         return 'Wrong number of values'
